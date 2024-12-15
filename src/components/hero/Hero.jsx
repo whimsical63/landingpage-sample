@@ -47,7 +47,7 @@ const Hero = () => {
                     className="hTitle">
                     Hey There,
                     <br/>
-                    <span>I'm Lloyd!</span>
+                    <span>I'm Robert!</span>
                 </motion.h1>
                 {/*AWARDS*/}
                 <motion.div variants={awardVariants} initial="initial" animate="animate" className="awards">
@@ -190,7 +190,7 @@ const Hero = () => {
                     </Suspense>
                 </Canvas>
                 <div className="hImg">
-                    <img src="/LA.png" alt=""/>
+                    <img src="/hero.png" alt=""/>
                 </div>
             </div>
         </div>
