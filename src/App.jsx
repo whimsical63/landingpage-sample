@@ -30,6 +30,8 @@ const App = () => {
                 </LazyLoad>
             </Suspense>
 
+            <Services />
+
             <Suspense fallback={"Loading..."}>
                 <LazyLoad height={"600vh"} offset={-100}>
                     {/*<section id="#portfolio">*/}

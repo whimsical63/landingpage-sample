@@ -109,6 +109,9 @@ const Services = () => {
                         currentServiceId === 2 ? (<MugModelContainer/>) :
                             (<ConsoleModelContainer/>)
                 }
+                {/*<ComputerModelContainer />*/}
+                {/*<MugModelContainer />*/}
+                {/*<ConsoleModelContainer />*/}
             </div>
 
 
